@@ -20,4 +20,4 @@ deploy:
     secure: $FIREBASE_TOKEN
   on:
     branch: master
-  project: "ShowYourself"
+  project: "showyourself-3884f"
