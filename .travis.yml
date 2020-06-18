@@ -12,12 +12,12 @@ install:
 script:
   - npm run build
 
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
 deploy:
   provider: firebase
   skip-cleanup: true
   local_dir: build
-  token:
-    secure: $FIREBASE_TOKEN
   on:
     branch: master
   project: "showyourself-3884f"
