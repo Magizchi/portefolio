@@ -1,11 +1,13 @@
 import React from "react";
 import Header from "./containers/Header";
+import Home from "./containers/Home";
 
 const App = () => {
   return (
-    <div className="flex justify-center items-center">
+    <>
       <Header />
-    </div>
+      <Home />
+    </>
   );
 };
 
