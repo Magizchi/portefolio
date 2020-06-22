@@ -40,7 +40,7 @@ const Home = () => {
       title: "Expenses",
       codeLinkBack: "https://github.com/Magizchi/test-LeReacteur-back",
       codeLinkFront: "https://github.com/Magizchi/test-lereacteur-front",
-      applicationLink: "expense-portefolio.firebaseapp.com",
+      applicationLink: "https://expense-portefolio.firebaseapp.com/",
       description:
         "Test technique du Reacteur, Gestion des dépenses par utilisateur",
       tech: [
