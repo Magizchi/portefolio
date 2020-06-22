@@ -244,22 +244,20 @@ const Home = () => {
         </ul>
       </section>
       <section id="contact" className="py-12 mb-12">
-        <div className="grid grid-cols-3 gap-4">
-          <h2 className="flex justify-center col-start-2 col-end-3 mb-6 text-3xl font-bold text-purple-700">
+        <div className="flex flex-col justify-center">
+          <h2 className="flex justify-center mb-6 text-3xl font-bold text-purple-700">
             Contactez-moi
           </h2>
-          <p className="col-start-2 col-end-3">
+          <p className="mb-2">
             Contactez moi par mail si mon profil vous interresse.
           </p>
-          <span className="flex justify-center col-start-2 col-end-3">
-            <a
-              href="mailto:Rajan.G@outlook.fr"
-              className="flex justify-center col-start-2 border-b-2 border-transparent hover:border-purple-700 "
-            >
-              Rajan.G@outlook.fr
-            </a>
-          </span>
-          <span className="flex justify-center col-start-2 col-end-3">
+          <a
+            href="mailto:Rajan.G@outlook.fr"
+            className="flex justify-center mb-5 border-transparent hover:border-purple-700 "
+          >
+            Rajan.G@outlook.fr
+          </a>
+          <div className="flex justify-center ">
             <a
               target="blanc"
               href="https://firebasestorage.googleapis.com/v0/b/showyourself-3884f.appspot.com/o/Rajan.G.pdf?alt=media"
@@ -267,7 +265,7 @@ const Home = () => {
             >
               Mon CV
             </a>
-          </span>
+          </div>
         </div>
       </section>
     </body>
