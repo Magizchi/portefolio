@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const Home = () => {
   const [arrayProject] = useState([
     {
-      title: "My Anime List Version REACT",
+      title: "Ohara",
       codeLinkFront: "https://github.com/Magizchi/my-anime-list-ui",
       codeLinkBack: "https://github.com/Magizchi/my-anime-list-api",
       applicationLink: "https://magizchi.github.io/my-anime-list-ui/",
