@@ -4,9 +4,9 @@ const Home = () => {
   const [arrayProject] = useState([
     {
       title: "Ohara",
-      codeLinkFront: "https://github.com/Magizchi/my-anime-list-ui",
-      codeLinkBack: "https://github.com/Magizchi/my-anime-list-api",
-      applicationLink: "https://magizchi.github.io/my-anime-list-ui/",
+      codeLinkFront: "https://github.com/Magizchi/ohara-ui",
+      codeLinkBack: "https://github.com/Magizchi/ohara-api",
+      applicationLink: "https://magizchi.github.io/ohara-ui/",
       description: (
         <p>
           Utilisation de l'API{" "}
@@ -40,7 +40,7 @@ const Home = () => {
       title: "Expenses",
       codeLinkBack: "https://github.com/Magizchi/test-LeReacteur-back",
       codeLinkFront: "https://github.com/Magizchi/test-lereacteur-front",
-      applicationLink: "https://reacteur-test-1-3884f.firebaseapp.com/",
+      applicationLink: "expense-portefolio.firebaseapp.com",
       description:
         "Test technique du Reacteur, Gestion des dépenses par utilisateur",
       tech: [
@@ -70,7 +70,7 @@ const Home = () => {
     {
       title: "Todo liste avec REDUX",
       codeLinkFront: "https://github.com/Magizchi/todo-list-redux",
-      applicationLink: "https://todolist-redux-3884f.firebaseapp.com/",
+      applicationLink: "https://todo-list-portefolio.firebaseapp.com/",
       description: "Création d'une todo list avec redux",
       tech: ["REDUX", "React-js", "Firebase"],
     },
