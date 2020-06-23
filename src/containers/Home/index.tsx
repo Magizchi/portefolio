@@ -10,13 +10,19 @@ const Home = () => {
       description: (
         <p>
           Utilisation de l'API{" "}
-          <a className="underline" target="blanc" href="https://jikan.moe/">
+          <a
+            className="underline"
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://jikan.moe/"
+          >
             JIKAN
           </a>{" "}
           pour reproduire le site{" "}
           <a
             className="underline"
-            target="blanc"
+            target="_blank"
+            rel="noreferrer noopener"
             href="https://myanimelist.net/"
           >
             MyanimeList
@@ -91,7 +97,7 @@ const Home = () => {
   ]);
 
   return (
-    <body className="flex flex-col items-center justify-center pt-10 bg-gray-100">
+    <main className="flex flex-col items-center justify-center pt-10 bg-gray-100">
       <section
         id="presentation"
         className="container flex grid items-center justify-center grid-cols-5 gap-10 mb-12"
@@ -125,14 +131,18 @@ const Home = () => {
           </div>
         </div>
         <div className="col-span-5 col-start-1 m-2 lg:col-span-3">
-          <h2 className="text-2xl">Comment me former?</h2>
+          <h2 className="text-2xl">Comment je me suis formé ?</h2>
           <div className="p-3 bg-white rounded-lg shadow-xl">
             <div>
               {/* <h2 className="mb-3">Comment je suis devenu developpeur</h2> */}
               <p className="">
                 Le principal moyen mis en œuvre afin de devenir développeur est
                 la validation de la formation{" "}
-                <a href="https://www.lereacteur.io/" className="underline">
+                <a
+                  href="https://www.lereacteur.io/"
+                  rel="noreferrer noopener"
+                  className="underline"
+                >
                   Reacteur
                 </a>
                 .
@@ -151,7 +161,8 @@ const Home = () => {
             Contactez moi
           </a>
           <a
-            target="blanc"
+            target="_blank"
+            rel="noreferrer noopener"
             href="https://firebasestorage.googleapis.com/v0/b/rajananganesalingam.appspot.com/o/R_GANESALINGAM.pdf?alt=media"
             className="flex justify-center w-40 p-3 font-bold text-purple-700 border-2 border-transparent hover:border-purple-700"
           >
@@ -165,43 +176,6 @@ const Home = () => {
         className="flex flex-col items-center justify-center w-full py-12 mb-12 bg-purple-700"
       >
         <h2 className="mb-6 text-3xl font-bold text-gray-200">Mes projets</h2>
-        {/* <ul className="container grid grid-cols-2 gap-4 mb-5">
-          <li className="flex flex-col items-center w-64 bg-red-500">
-            <h3 className="flex justify-center mb-3">title</h3>
-            <div className="flex justify-center w-32 h-40 bg-blue-500"></div>
-
-            <p className="w-full">
-              Description:
-              <br />
-              Expluication du site du porjet
-            </p>
-            <p className="">
-              Technologies:
-              <br />
-              Typescript, Github pages, Travis CI, TailwindCss, React-js,
-              Node-js, Express, Firebase, heroku
-            </p>
-            <div className="flex flex-col items-center sm:items-center sm:justify-start sm:flex-row">
-              <a
-                href="#project"
-                target="blanc"
-                className="flex items-center justify-center w-32 p-3 text-sm font-bold text-white bg-purple-700 border-2 border-purple-600 lg:mr-5 hover:bg-purple-100 hover:text-purple-700"
-              >
-                Voir exemple
-              </a>
-              <a
-                href="#project"
-                target="blanc"
-                className="flex items-center justify-center w-32 text-sm font-bold text-purple-700 border-b-2 border-transparent hover:border-purple-600"
-              >
-                Voir code
-              </a>
-            </div>
-          </li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-        </ul> */}
         <ul className="container grid gap-5 mb-5 grid-coles-1">
           {arrayProject.map((project, index) => (
             <li
@@ -216,14 +190,16 @@ const Home = () => {
                 <div className="flex flex-col items-center justify-center lg:items-center lg:justify-start lg:flex-row">
                   <a
                     href={project.applicationLink}
-                    target="blanc"
+                    target="_blank"
+                    rel="noreferrer noopener"
                     className="flex items-center justify-center w-32 p-3 text-sm font-bold text-white bg-purple-700 border-2 border-purple-600 lg:mr-5 hover:bg-purple-100 hover:text-purple-700"
                   >
                     Voir exemple
                   </a>
                   <a
                     href={project.codeLinkFront}
-                    target="blanc"
+                    target="_blank"
+                    rel="noreferrer noopener"
                     className="flex items-center justify-center w-32"
                   >
                     <span className="flex items-center justify-center text-sm font-bold text-purple-700 border-b-2 border-transparent hover:border-purple-600">
@@ -253,13 +229,15 @@ const Home = () => {
           </p>
           <a
             href="mailto:Rajan.G@outlook.fr"
+            rel="noreferrer noopener"
             className="flex justify-center mb-5 border-transparent hover:border-purple-700 "
           >
             Rajan.G@outlook.fr
           </a>
           <div className="flex justify-center ">
             <a
-              target="blanc"
+              target="_blank"
+              rel="noreferrer noopener"
               href="https://firebasestorage.googleapis.com/v0/b/rajananganesalingam.appspot.com/o/R_GANESALINGAM.pdf?alt=media"
               className="flex justify-center w-40 p-3 font-bold text-white bg-purple-700 border-2 border-purple-600 hover:bg-purple-100 hover:text-purple-700"
             >
@@ -268,7 +246,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </body>
+    </main>
   );
 };
 
