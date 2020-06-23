@@ -152,7 +152,7 @@ const Home = () => {
           </a>
           <a
             target="blanc"
-            href="https://firebasestorage.googleapis.com/v0/b/showyourself-3884f.appspot.com/o/Rajan.G.pdf?alt=media"
+            href="https://firebasestorage.googleapis.com/v0/b/rajananganesalingam.appspot.com/o/R_GANESALINGAM.pdf?alt=media"
             className="flex justify-center w-40 p-3 font-bold text-purple-700 border-2 border-transparent hover:border-purple-700"
           >
             Voir mon cv
@@ -260,7 +260,7 @@ const Home = () => {
           <div className="flex justify-center ">
             <a
               target="blanc"
-              href="https://firebasestorage.googleapis.com/v0/b/showyourself-3884f.appspot.com/o/Rajan.G.pdf?alt=media"
+              href="https://firebasestorage.googleapis.com/v0/b/rajananganesalingam.appspot.com/o/R_GANESALINGAM.pdf?alt=media"
               className="flex justify-center w-40 p-3 font-bold text-white bg-purple-700 border-2 border-purple-600 hover:bg-purple-100 hover:text-purple-700"
             >
               Mon CV
