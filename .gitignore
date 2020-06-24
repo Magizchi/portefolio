@@ -7,10 +7,10 @@
 
 # testing
 /coverage
-
+/src/index.css
 # production
 /build
-/firebase
+/.firebase
 # misc
 .DS_Store
 .env.local
